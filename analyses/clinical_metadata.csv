@@ -1,0 +1,12 @@
+Specimen ID,Sample id,age ,primary/recurrence ,grade,central/conventional,Margin
+0-20-100-00479  ,S10-479 ,,primary ,3,central,M0
+1-20-140-11208  ,S14-11208 ,69,primary ,3,central,M1
+1-20-150-16380,S15-16380 ,59,recurrence ,2,central,M0
+1-20-140-09996 ,S14-9996 ,103,primary ,3,central,M2  
+1- S-17-0004703  ,S17-4703 ,44,primary ,2,conventional,
+NMS22-28934 ,NMS22-28934,50,primary ,3,conventional,M0
+0-20-080-25548 ,S08-25548 ,62,primary ,,conventional,M2
+NMS22-13453 ,NMS22-13453 ,50,primary,2,,
+NMS23-00471 ,NMS23-471 ,56,primary  ,2,conventional ,M0
+NMS23-01947  ,NMS23-1947 ,58,recurrence ,3,conventional ,M0
+1- S-18-0006943 ,S18-6943 ,68,primary ,2,conventional ,M0

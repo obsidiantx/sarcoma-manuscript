@@ -1,0 +1,62 @@
+Analysis date: Thu Apr 25 23:12:09 UTC 2024
+Input file(s): results/115124DN_S15.refined.vdjca
+Output file(s): results/115124DN_S15.clns
+Version: 4.6.0; built=Sat Dec 09 19:48:42 UTC 2023; rev=c9fafa41fe; lib=repseqio.v4.0
+Command line arguments: assemble --report results/115124DN_S15.assemble.report.txt --json-report results/115124DN_S15.assemble.report.json results/115124DN_S15.refined.vdjca results/115124DN_S15.clns
+Analysis time: 11.11m
+Final clonotype count: 82
+Reads used in clonotypes, percent of total: 7790328 (41.93%)
+Average number of reads per clonotype: 95004
+Reads dropped due to the lack of a clone sequence, percent of total: 1312010 (7.06%)
+Reads dropped due to a too short clonal sequence, percent of total: 0 (0%)
+Reads dropped due to low quality, percent of total: 0 (0%)
+Reads dropped due to failed mapping, percent of total: 0 (0%)
+Reads dropped with low quality clones, percent of total: 0 (0%)
+Aligned reads processed: 7790328
+Reads used in clonotypes before clustering, percent of total: 7790328 (41.93%)
+Number of reads used as a core, percent of used: 7785954 (99.94%)
+Mapped low quality reads, percent of used: 4374 (0.06%)
+Reads clustered in PCR error correction, percent of used: 0 (0%)
+Reads pre-clustered due to the similar VJC-lists, percent of used: 0 (0%)
+Clonotypes dropped as low quality: 0
+Clonotypes eliminated by PCR error correction: 0
+Clonotypes pre-clustered due to the similar VJC-lists: 0
+Clones dropped in post filtering: 0 (0%)
+Reads dropped in post filtering: 0.0 (0%)
+Alignments filtered by tag prefix: 0 (0%)
+TRA chains: 33 (40.24%)
+TRA non-functional: 14 (42.42%)
+TRB chains: 33 (40.24%)
+TRB non-functional: 10 (30.3%)
+TRD chains: 1 (1.22%)
+TRD non-functional: 0 (0%)
+TRG chains: 14 (17.07%)
+TRG non-functional: 7 (50%)
+IGK chains: 1 (1.22%)
+IGK non-functional: 0 (0%)
+Pre-clone assembler report:
+  Number of input groups: 448
+  Number of input groups with no assembling feature: 343
+  Number of input alignments: 9050577
+  Number of alignments with assembling feature: 7738567 (85.5%)
+  Number of output pre-clones: 106
+  Number of pre-clonotypes per group:  
+    0: + 1 (0.95%) = 1 (0.95%)
+    1: + 102 (97.14%) = 103 (98.1%)
+    2: + 2 (1.9%) = 105 (100%)
+  Number of assembling feature sequences in groups with zero pre-clonotypes: 29350
+  Number of dropped pre-clones by tag suffix conflict: 0
+  Number of dropped alignments by tag suffix conflict: 0
+  Number of core alignments: 7703346 (85.11%)
+  Discarded core alignments: 35221 (0.46%)
+  Empirically assigned alignments: 86982 (0.96%)
+  Empirical assignment conflicts: 0 (0%)
+  Tag+VJ-gene empirically assigned alignments: 86982 (0.96%)
+  VJ-gene empirically assigned alignments: 0 (0%)
+  Tag empirically assigned alignments: 0 (0%)
+  Number of ambiguous groups: 2
+  Number of ambiguous V-genes: 1
+  Number of ambiguous tag+V/J-gene combinations: 1
+  Ignored non-productive alignments: 0 (0%)
+  Unassigned alignments: 265989 (2.94%)
+======================================

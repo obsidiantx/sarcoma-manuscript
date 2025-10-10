@@ -1,0 +1,2 @@
+cloneId	readCount	readFraction	uniqueMoleculeCount	uniqueMoleculeFraction	targetSequences	targetQualities	allVHitsWithScore	allDHitsWithScore	allJHitsWithScore	allCHitsWithScore	allVAlignments	allDAlignments	allJAlignments	allCAlignments	nSeqCDR3	minQualCDR3	aaSeqCDR3	refPoints
+24	42537.0	1.0	1	1.0	TGTGCCACCTGGGACAGGCAGAATTATAAGAAACTCTTT	NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN	TRGV5*00(1071.6)		TRGJ2*00(444)	TRGC1*00(200.5),TRGC2*00(200.5)	356|375|394|0|19||190.0		25|42|70|22|39||170.0	;	TGTGCCACCTGGGACAGGCAGAATTATAAGAAACTCTTT	45	CATWDRQNYKKLF	:::::::::0:1:19:::::22:-5:39:::

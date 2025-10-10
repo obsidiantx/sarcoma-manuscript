@@ -1,0 +1,226 @@
+[ {
+  "step" : "align",
+  "status" : "ALERT",
+  "check" : {
+    "type" : "SuccessfullyAlignedReads",
+    "upper" : 0.85,
+    "middle" : 0.7,
+    "label" : "Successfully aligned reads"
+  },
+  "payload" : {
+    "printedValue" : "38.42%",
+    "value" : 0.3842199639903402
+  }
+}, {
+  "step" : "align",
+  "status" : "OK",
+  "check" : {
+    "type" : "OffTargetReads",
+    "upper" : 0.2,
+    "middle" : 0.1,
+    "label" : "Off target (non TCR/IG) reads"
+  },
+  "payload" : {
+    "printedValue" : "4.41%",
+    "value" : 0.0440988452750496
+  }
+}, {
+  "step" : "align",
+  "status" : "ALERT",
+  "check" : {
+    "type" : "ReadsWithNoVOrJHits",
+    "upper" : 0.2,
+    "middle" : 0.1,
+    "label" : "Reads with no V or J hits"
+  },
+  "payload" : {
+    "printedValue" : "57.07%",
+    "value" : 0.5706844717820224
+  }
+}, {
+  "step" : "assemble",
+  "status" : "ALERT",
+  "check" : {
+    "type" : "AlignmentsWithNoAssemblingFeature",
+    "upper" : 0.15,
+    "middle" : 0.05,
+    "label" : "Alignments without assembling feature"
+  },
+  "payload" : {
+    "labelOverride" : "Alignments that do not cover CDR3",
+    "printedValue" : "37.44%",
+    "value" : 0.3743878089932182
+  }
+}, {
+  "step" : "align",
+  "status" : "OK",
+  "check" : {
+    "type" : "ReadsWithNoBarcode",
+    "upper" : 0.2,
+    "middle" : 0.1,
+    "label" : "Reads with no barcode"
+  },
+  "payload" : {
+    "printedValue" : "0.0%",
+    "value" : 0.0
+  }
+}, {
+  "step" : "refineTagsAndSort",
+  "status" : "OK",
+  "check" : {
+    "type" : "ReadsDroppedInTagRefinement",
+    "upper" : 0.1,
+    "middle" : 0.05,
+    "label" : "Reads dropped in tags error correction and filtering"
+  },
+  "payload" : {
+    "printedValue" : "0.53%",
+    "value" : 0.005325958097002622
+  }
+}, {
+  "step" : "refineTagsAndSort",
+  "status" : "ALERT",
+  "check" : {
+    "type" : "TagArtificialDiversityEliminated",
+    "tag" : "UMI",
+    "upper" : 0.5,
+    "middle" : 0.3,
+    "label" : "UMIs artificial diversity eliminated"
+  },
+  "payload" : {
+    "printedValue" : "68.39%",
+    "value" : 0.683946090257004
+  }
+}, {
+  "step" : "refineTagsAndSort",
+  "status" : "OK",
+  "check" : {
+    "type" : "ReadsDroppedInTagCorrection",
+    "tag" : "UMI",
+    "upper" : 0.1,
+    "middle" : 0.05,
+    "label" : "Reads dropped in UMI error correction and whitelist"
+  },
+  "payload" : {
+    "printedValue" : "0.02%",
+    "value" : 1.5542576244235743E-4
+  }
+}, {
+  "step" : "refineTagsAndSort",
+  "status" : "OK",
+  "check" : {
+    "type" : "ReadsDroppedInTagFiltering",
+    "upper" : 0.1,
+    "middle" : 0.05,
+    "label" : "Reads dropped in tags filtering"
+  },
+  "payload" : {
+    "printedValue" : "0.52%",
+    "value" : 0.005170532334560264
+  }
+}, {
+  "step" : "assemble",
+  "status" : "ALERT",
+  "check" : {
+    "type" : "TagGroupsWithNoAssemblingFeature",
+    "upper" : 0.2,
+    "middle" : 0.1,
+    "label" : "Tag groups with no assembling feature"
+  },
+  "payload" : {
+    "labelOverride" : "Tag groups that do not cover CDR3",
+    "printedValue" : "99.48%",
+    "value" : 0.9948353776630084
+  }
+}, {
+  "step" : "assemble",
+  "status" : "ALERT",
+  "check" : {
+    "type" : "TagGroupsWithMultipleConsensuses",
+    "upper" : 0.1,
+    "middle" : 0.01,
+    "label" : "Barcode collisions in clonotype assembly"
+  },
+  "payload" : {
+    "printedValue" : "12.5%",
+    "value" : 0.125
+  }
+}, {
+  "step" : "assemble",
+  "status" : "OK",
+  "check" : {
+    "type" : "UnassignedAlignments",
+    "upper" : 0.1,
+    "middle" : 0.05,
+    "label" : "Unassigned alignments in clonotype assembly"
+  },
+  "payload" : {
+    "printedValue" : "0.47%",
+    "value" : 0.004684456474209358
+  }
+}, {
+  "step" : "assemble",
+  "status" : "ALERT",
+  "check" : {
+    "type" : "ReadsUsedInClonotypes",
+    "upper" : 0.9,
+    "middle" : 0.7,
+    "label" : "Reads used in clonotypes"
+  },
+  "payload" : {
+    "printedValue" : "0.78%",
+    "value" : 0.007809587343025752
+  }
+}, {
+  "step" : "assemble",
+  "status" : "OK",
+  "check" : {
+    "type" : "AlignmentsDroppedLowQuality",
+    "upper" : 0.05,
+    "middle" : 0.01,
+    "label" : "Alignments dropped due to low sequence quality"
+  },
+  "payload" : {
+    "printedValue" : "0.0%",
+    "value" : 0.0
+  }
+}, {
+  "step" : "assemble",
+  "status" : "OK",
+  "check" : {
+    "type" : "ClonesDroppedInPostFiltering",
+    "upper" : 0.05,
+    "middle" : 0.01,
+    "label" : "Clones dropped in post-filtering"
+  },
+  "payload" : {
+    "printedValue" : "0.0%",
+    "value" : 0.0
+  }
+}, {
+  "step" : "assemble",
+  "status" : "OK",
+  "check" : {
+    "type" : "AlignmentsDroppedInPostFiltering",
+    "upper" : 0.05,
+    "middle" : 0.01,
+    "label" : "Alignments dropped in clones post-filtering"
+  },
+  "payload" : {
+    "printedValue" : "0.0%",
+    "value" : 0.0
+  }
+}, {
+  "step" : "align",
+  "status" : "OK",
+  "check" : {
+    "type" : "OverlappedReadsMoreBetter",
+    "upper" : 0.9,
+    "middle" : 0.8,
+    "label" : "Overlapped paired-end reads"
+  },
+  "payload" : {
+    "printedValue" : "94.8%",
+    "value" : 0.9479718946415979
+  }
+} ]

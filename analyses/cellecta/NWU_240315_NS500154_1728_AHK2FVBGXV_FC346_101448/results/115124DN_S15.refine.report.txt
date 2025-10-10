@@ -1,0 +1,34 @@
+Analysis date: Thu Apr 25 23:12:09 UTC 2024
+Input file(s): results/115124DN_S15.vdjca
+Output file(s): results/115124DN_S15.refined.vdjca
+Version: 4.6.0; built=Sat Dec 09 19:48:42 UTC 2023; rev=c9fafa41fe; lib=repseqio.v4.0
+Command line arguments: refineTagsAndSort --report results/115124DN_S15.refine.report.txt --json-report results/115124DN_S15.refine.report.json results/115124DN_S15.vdjca results/115124DN_S15.refined.vdjca
+Analysis time: 1.89m
+Time spent in correction: 33.01s
+Number of input records: 9078531
+Number of output records: 9050577 (99.69%)
+UMI correction report:
+  UMI input diversity: 62788
+  UMI output diversity: 21330 (33.97%)
+  UMI input reads: 9078531
+  UMI output reads: 9077664 (99.99%)
+  UMI mean reads per tag: 144.59
+  UMI input core diversity: 55668 (88.66%)
+  UMI input core reads: 9067749 (99.88%)
+  UMI directly corrected diversity: 40605 (64.67%)
+  UMI directly corrected reads: 208643 (2.3%)
+  UMI diversity filtered by tag quality: 853 (1.36%)
+  UMI reads filtered by tag quality: 867 (0.01%)
+  UMI diversity filtered by whitelist: 0 (0%)
+  UMI recursively corrected: 38224
+Filter report:
+  Number of groups: 21330
+  Number of groups accepted: 448 (2.1%)
+  Total records weight: 9077664
+  Records weight accepted: 9050577 (99.7%)
+  Operator #0:
+    Effective threshold: 54.0
+    Nested thresholds:
+      #0: 54
+      #1: 38915
+======================================

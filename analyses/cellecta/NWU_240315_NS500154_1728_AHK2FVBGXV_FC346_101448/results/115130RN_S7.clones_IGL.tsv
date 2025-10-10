@@ -1,0 +1,2 @@
+cloneId	readCount	readFraction	uniqueMoleculeCount	uniqueMoleculeFraction	targetSequences	targetQualities	allVHitsWithScore	allDHitsWithScore	allJHitsWithScore	allCHitsWithScore	allVAlignments	allDAlignments	allJAlignments	allCAlignments	nSeqCDR3	minQualCDR3	aaSeqCDR3	refPoints
+2673	978.0	1.0	1	1.0	TGCAGCTCATATACAAGTAGCAACACTCGGGTGTTC	NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN	IGLV2-14*00(541.4)		IGLJ3*00(358.5)	IGLC2*00(221.8)	344|372|394|0|28|SC361TSG366A|222.0		22|30|58|28|36||80.0		TGCAGCTCATATACAAGTAGCAACACTCGGGTGTTC	45	CSSYTSSNTRVF	:::::::::0:-2:28:::::28:-2:36:::

@@ -1,0 +1,69 @@
+Analysis date: Fri Apr 26 00:39:47 UTC 2024
+Input file(s): 115125RN_S2_R1_001.fastq.gz,115125RN_S2_R2_001.fastq.gz
+Output file(s): results/115125RN_S2.vdjca
+Version: 4.6.0; built=Sat Dec 09 19:48:42 UTC 2023; rev=c9fafa41fe; lib=repseqio.v4.0
+Command line arguments: align --report results/115125RN_S2.align.report.txt --json-report results/115125RN_S2.align.report.json --preset cellecta-human-rna-xcr-umi-drivermap-air --save-output-file-names results/115125RN_S2.align.list 115125RN_S2_R1_001.fastq.gz 115125RN_S2_R2_001.fastq.gz results/115125RN_S2.vdjca
+Analysis time: 1.92m
+Total sequencing reads: 8300684
+Successfully aligned reads: 8186994 (98.63%)
+Coverage (percent of successfully aligned):
+  CDR3: 8137386 (99.39%)
+  FR3_TO_FR4: 0 (0%)
+  CDR2_TO_FR4: 0 (0%)
+  FR2_TO_FR4: 0 (0%)
+  CDR1_TO_FR4: 0 (0%)
+  VDJRegion: 0 (0%)
+Alignment failed: no hits (not TCR/IG?): 15025 (0.18%)
+Alignment failed after alignment-aided overlap: 102 (0%)
+Alignment failed: absence of V hits: 380 (0%)
+Alignment failed: absence of J hits: 92463 (1.11%)
+Alignment failed: no target with both V and J alignments: 5720 (0.07%)
+Overlapped: 8021149 (96.63%)
+Overlapped and aligned: 7921542 (95.43%)
+Overlapped and not aligned: 99607 (1.2%)
+Alignment-aided overlaps, percent of overlapped and aligned: 64479 (0.81%)
+No CDR3 parts alignments, percent of successfully aligned: 1 (0%)
+Partial aligned reads, percent of successfully aligned: 49607 (0.61%)
+V gene chimeras: 2536 (0.03%)
+J gene chimeras: 75 (0%)
+Paired-end alignment conflicts eliminated: 105406 (1.27%)
+Realigned with forced non-floating bound: 344014 (4.14%)
+Realigned with forced non-floating right bound in left read: 229 (0%)
+Realigned with forced non-floating left bound in right read: 229 (0%)
+TRA chains: 4158815 (50.8%)
+TRA non-functional: 389999 (9.38%)
+TRB chains: 3475829 (42.46%)
+TRB non-functional: 64196 (1.85%)
+TRD chains: 145560 (1.78%)
+TRD non-functional: 1814 (1.25%)
+TRG chains: 385798 (4.71%)
+TRG non-functional: 110515 (28.65%)
+IGK chains: 20992 (0.26%)
+IGK non-functional: 103 (0.49%)
+Trimming report:
+  R1 reads trimmed left: 815 (0.01%)
+  R1 reads trimmed right: 14 (0%)
+  Average R1 nucleotides trimmed left: 0.0010256986050788104
+  Average R1 nucleotides trimmed right: 1.1493028767267854E-4
+  R2 reads trimmed left: 21 (0%)
+  R2 reads trimmed right: 1186 (0.01%)
+  Average R2 nucleotides trimmed left: 3.6382543896382514E-5
+  Average R2 nucleotides trimmed right: 0.005497137344344153
+Tag parsing report:
+  Execution time: 0ns
+  Total reads: 8300684
+  Matched reads: 8300684 (100%)
+  Projection +R1 +R2: 8300684 (100%)
+  For variant 0:
+    For projection +R1 +R2:
+      R1:Left position: 0
+      R1:Right position: 148
+      UMI:Left position: 0
+      R2:Left position: 18
+      UMI:Right position: 18
+      Variants: 0
+      Cost: 0
+      R1 length: 148
+      UMI length: 18
+      R2 length: 130
+======================================

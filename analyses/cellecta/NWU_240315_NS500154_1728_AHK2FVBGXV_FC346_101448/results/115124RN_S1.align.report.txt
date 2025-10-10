@@ -1,0 +1,68 @@
+Analysis date: Fri Apr 26 00:19:32 UTC 2024
+Input file(s): 115124RN_S1_R1_001.fastq.gz,115124RN_S1_R2_001.fastq.gz
+Output file(s): results/115124RN_S1.vdjca
+Version: 4.6.0; built=Sat Dec 09 19:48:42 UTC 2023; rev=c9fafa41fe; lib=repseqio.v4.0
+Command line arguments: align --report results/115124RN_S1.align.report.txt --json-report results/115124RN_S1.align.report.json --preset cellecta-human-rna-xcr-umi-drivermap-air --save-output-file-names results/115124RN_S1.align.list 115124RN_S1_R1_001.fastq.gz 115124RN_S1_R2_001.fastq.gz results/115124RN_S1.vdjca
+Analysis time: 2.92m
+Total sequencing reads: 8378933
+Successfully aligned reads: 5172128 (61.73%)
+Coverage (percent of successfully aligned):
+  CDR3: 5171573 (99.99%)
+  FR3_TO_FR4: 0 (0%)
+  CDR2_TO_FR4: 0 (0%)
+  FR2_TO_FR4: 0 (0%)
+  CDR1_TO_FR4: 0 (0%)
+  VDJRegion: 0 (0%)
+Alignment failed: no hits (not TCR/IG?): 241723 (2.88%)
+Alignment failed after alignment-aided overlap: 19 (0%)
+Alignment failed: absence of V hits: 340 (0%)
+Alignment failed: absence of J hits: 2963514 (35.37%)
+Alignment failed: no target with both V and J alignments: 1209 (0.01%)
+Overlapped: 7864782 (93.86%)
+Overlapped and aligned: 5023266 (59.95%)
+Overlapped and not aligned: 2841516 (33.91%)
+Alignment-aided overlaps, percent of overlapped and aligned: 53830 (1.07%)
+Partial aligned reads, percent of successfully aligned: 555 (0.01%)
+V gene chimeras: 1501 (0.02%)
+J gene chimeras: 58 (0%)
+Paired-end alignment conflicts eliminated: 78167 (0.93%)
+Realigned with forced non-floating bound: 567981 (6.78%)
+Realigned with forced non-floating right bound in left read: 182 (0%)
+Realigned with forced non-floating left bound in right read: 182 (0%)
+TRA chains: 3967037 (76.7%)
+TRA non-functional: 19658 (0.5%)
+TRB chains: 1205047 (23.3%)
+TRB non-functional: 6146 (0.51%)
+TRD chains: 3 (0%)
+TRD non-functional: 1 (33.33%)
+TRG chains: 40 (0%)
+TRG non-functional: 28 (70%)
+IGK chains: 1 (0%)
+IGK non-functional: 1 (100%)
+Trimming report:
+  R1 reads trimmed left: 799 (0.01%)
+  R1 reads trimmed right: 28 (0%)
+  Average R1 nucleotides trimmed left: 9.696938739097209E-4
+  Average R1 nucleotides trimmed right: 2.2854938689687577E-4
+  R2 reads trimmed left: 26 (0%)
+  R2 reads trimmed right: 1197 (0.01%)
+  Average R2 nucleotides trimmed left: 4.905159165254096E-5
+  Average R2 nucleotides trimmed right: 0.005554287162816554
+Tag parsing report:
+  Execution time: 0ns
+  Total reads: 8378933
+  Matched reads: 8378933 (100%)
+  Projection +R1 +R2: 8378933 (100%)
+  For variant 0:
+    For projection +R1 +R2:
+      R1:Left position: 0
+      R1:Right position: 148
+      UMI:Left position: 0
+      R2:Left position: 18
+      UMI:Right position: 18
+      Variants: 0
+      Cost: 0
+      R1 length: 148
+      UMI length: 18
+      R2 length: 130
+======================================
